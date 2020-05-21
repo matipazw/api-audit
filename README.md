@@ -1,6 +1,6 @@
 # Middleware ASP.NET Core Auditoria 
 
-Middleware de ASP.NET core para auditar las llamadas a los endpoint de una API REST. Este middleware captura los requests y response de los endpoint invocados llevadolos a json para luego ser persistidos según decisiones técnicas.
+Middleware de ASP.NET core para auditar las llamadas a los endpoint de una API REST. Este middleware captura los requests y response de los endpoint invocados llevadolos a json para luego ser persistidos según decisión técnica.
 
 En este caso se incluye un proyecto adicional que integra con AWS SQS para delegar el procesamiento de la mensajería en otro componente que consuma dicha cola de mensaje.
 
